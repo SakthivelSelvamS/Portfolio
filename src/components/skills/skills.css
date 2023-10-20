@@ -1,0 +1,41 @@
+.card.skill{
+    width: 150px;
+    padding: 30px;
+    margin: 20px;
+    background: #c49071;
+}
+
+.container.skills{
+    background: #af673dd0;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    transition: all 300ms linear;
+    backdrop-filter: blur(3px);
+}
+
+.card.skill:hover{
+    cursor: pointer;
+    background-color: #ffcaabf8;
+}
+
+@media (max-width:600px){
+    .container.skills{
+        margin:20px 5px 10px 5px !important;
+        width: auto;
+    }
+}
+
+@media (max-width:480px) {
+    .card.skill img{
+        width: 40px;
+    }
+    .card.skill{
+        width: auto;
+        padding: 10px;
+        margin: 10px;
+    }
+    .container.skills{
+        padding: 20px 0;
+    }
+}

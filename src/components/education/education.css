@@ -1,0 +1,109 @@
+:root{
+    --size-var : 100px;
+}
+
+.container.educations{
+    font-size: 14px;
+    background: #af673dd0;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    transition: all 300ms linear;
+    margin-top: 40px;
+    height: 400px;
+    overflow: hidden;
+}
+.container.educations .educations-title h1{
+    margin: 0;
+}
+.container.educations .card-header h3{
+    margin: 8px;
+}
+.card-header{
+    display: flex;
+    align-items: baseline;
+    padding: 8px 0;
+}
+.card-header p{
+    margin-bottom: 0;
+}
+.card.education{
+    max-width: 300px;
+    min-width: 200px;
+    height: 280px;
+    color: black;
+    background-color: #c49071;
+    text-align: justify;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    top: 145px;
+    transition: all 300ms linear;
+}
+.container.educations .education-details{
+    display: flex;
+    position: relative;
+    top: 20px;
+}
+.container.educations .education-details .card.education{
+    position: absolute;
+}
+.container.educations .arrow-icon img{
+    width: 25px;
+    padding: 6px;
+    background-color: #c49071;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+.container.educations .arrow-icon img:nth-child(1){
+    transform: rotateY(180deg);
+}
+.container.educations .educations-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.container.educations .arrow-icon{
+    position: absolute;
+    right: 0;
+}
+.container.educations .arrow-icon img:hover{
+    cursor: pointer;
+    background-color: #ffba92;
+}
+
+
+@media (max-width:1000px) {
+    :root{
+        --size-var: 20px;
+    }
+}
+
+@media (max-width:576px) {
+    .container.educations {
+        border-radius: 0;
+    }
+}
+@media (max-width:400px) {
+    .card.education .card-body{
+        padding: 10px !important;
+    }
+    .card.education{
+        top: 135px;
+    }
+    .container.educations .arrow-icon{
+        position: unset;
+        margin-top: 10px;
+    }
+    .container.educations .educations-title{
+        display: grid   ;
+    }
+}
+
+@media (max-width:600px) {
+    .container.educations{
+        margin: 10px 5px !important;
+    }
+}
