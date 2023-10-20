@@ -1,13 +1,13 @@
 {
-  "homepage":"https://Sakthivel-Selvam-MEAN-Developer.io/Portfolio",
+  "homepage":"https://Sakthivel-Selvam-MEAN-Developer.github.io/Portfolio",
   "name": "package.json",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
     "predeploy":"npm run build",
     "deploy":"gh-pages -d dist",
+    "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
