@@ -10,7 +10,7 @@ const Experience = () => {
                 </div>
                 <div className="experience-details d-grid flex-wrap align-items-center">
                     <div className="card experience">
-                        <img src="/capgemini.svg" alt="capgemini-logo" />
+                        <img src="./capgemini.svg" alt="capgemini-logo" />
                         <hr />
                         <div className="card-body d-flex">
                             <div className="left-side-details text-start me-4">
@@ -25,7 +25,7 @@ const Experience = () => {
                         </div>
                     </div>
                     <div className="card experience">
-                        <img src="/erp-roots.svg" alt="" />
+                        <img src="./erp-roots.svg" alt="" />
                         <hr />
                         <div className="card-body d-flex">
                             <div className="left-side-details text-start me-4">
@@ -40,7 +40,7 @@ const Experience = () => {
                         </div>
                     </div>
                     <div className="card experience">
-                        <img src="/hatlet-technologies.svg" alt="" />
+                        <img src="./hatlet-technologies.svg" alt="" />
                         <hr />
                         <div className="card-body d-flex">
                             <div className="left-side-details text-start me-4">

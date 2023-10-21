@@ -53,8 +53,8 @@ const Education = () => {
                 <div className="educations-title">
                     <h1>Education</h1>
                     <div className="arrow-icon">
-                        <img src="/arrow.svg" alt="left-arrow-icon" onClick={()=>{prev()}} />
-                        <img src="/arrow.svg" alt="right-arrow-icon" onClick={()=>{next()}}/>
+                        <img src="./arrow.svg" alt="left-arrow-icon" onClick={()=>{prev()}} />
+                        <img src="./arrow.svg" alt="right-arrow-icon" onClick={()=>{next()}}/>
                     </div>
                 </div>
                 <div className="education-details">
