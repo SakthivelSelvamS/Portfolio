@@ -10,7 +10,7 @@ const Skills = () => {
                 <div className="skill-svgs d-flex flex-wrap justify-content-center align-items-center">
                     <a href="https://www.w3schools.com/html/" target='_blank' title='click to learn Html5'>
                         <div className="card skill">
-                            <img src="../src/assets/html-5-svgrepo-com.svg" alt="html-svg" />
+                            <img src="../../assets/html-5-svgrepo-com.svg" alt="html-svg" />
                         </div>
                     </a>
                     <a href="https://www.w3schools.com/css/" target='_blank' title='click to learn css3'>
