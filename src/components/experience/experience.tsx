@@ -25,7 +25,7 @@ const Experience = () => {
                         </div>
                     </div>
                     <div className="card experience">
-                        <img src="./erp-roots.svg" alt="" />
+                        <img src="./ERP-Roots.svg" alt="" />
                         <hr />
                         <div className="card-body d-flex">
                             <div className="left-side-details text-start me-4">
