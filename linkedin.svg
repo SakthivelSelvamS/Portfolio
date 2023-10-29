@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="800px"
+   height="800px"
+   viewBox="0 0 16 16"
+   fill="none"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="linkedin-svgrepo-com.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.550625"
+     inkscape:cx="17.253121"
+     inkscape:cy="460.38592"
+     inkscape:window-width="1920"
+     inkscape:window-height="1164"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <rect
+     style="fill:#ca9474;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-miterlimit:0;paint-order:stroke fill markers"
+     id="rect1"
+     width="14.347333"
+     height="14.238365"
+     x="0.79909194"
+     y="0.908059"
+     rx="0.20022701"
+     ry="0.15025015" />
+  <path
+     fill="#0A66C2"
+     d="M 13.633334,13.633303 H 11.262668 V 9.9199835 c 0,-0.88533 -0.016,-2.0253259 -1.233334,-2.0253259 -1.2346666,0 -1.4239999,0.9653298 -1.4239999,1.9599928 V 13.633303 H 6.2346673 V 5.9973312 h 2.2760001 v 1.0439962 h 0.032 c 0.464,-0.7919971 1.3280005,-1.2666621 2.2453336,-1.2333288 2.402667,0 2.846667,1.5799943 2.846667,3.63732 l -0.0014,4.1866514 z M 3.5600004,4.953335 A 1.3826668,1.3826616 0 0 1 2.1840002,3.5786733 c 0,-0.7546639 0.6213334,-1.375995 1.3760002,-1.375995 0.7546667,0 1.3746667,0.6213311 1.3760001,1.375995 0,0.754664 -0.6213334,1.3759951 -1.3760001,1.3759951 z m 1.1853334,8.679968 H 2.3720002 V 5.9973312 H 4.7453338 Z M 14.813334,1.9771388e-5 H 1.1800002 A 1.1733334,1.173329 0 0 0 1.1428572e-7,1.1546822 V 14.845299 A 1.1733334,1.173329 0 0 0 1.1800002,15.999961 H 14.814668 a 1.1760001,1.1759958 0 0 0 1.185333,-1.154662 V 1.1533489 A 1.1733334,1.173329 0 0 0 14.814668,0.00135309 Z"
+     id="path1"
+     style="fill:#3a0900;fill-opacity:1;stroke-width:1" />
+</svg>
