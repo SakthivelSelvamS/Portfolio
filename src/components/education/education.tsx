@@ -1,8 +1,5 @@
 import { useEffect, useState } from 'react';
 import './education.css';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
 
 const Education = () => {
     const [isPrevBtnClicked, setIsPrevBtnClicked] = useState(false);
@@ -49,7 +46,7 @@ const Education = () => {
 
     return (
         <>
-            <div className="container educations mb-3">
+            <div className="container educations mb-3" id='education'>
                 <div className="educations-title">
                     <h1>Education</h1>
                     <div className="arrow-icon">

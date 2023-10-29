@@ -3,7 +3,7 @@ import './experience.css'
 const Experience = () => {
     return (
         <>
-            <div className="container experiences mb-3">
+            <div className="container experiences mb-3" id='experience'>
                 <div className="experiences-title">
                     <h1>Experience</h1>
                     <p className='text-start ms-4 mb-0 text-white'>Note : 2.5 Years Overall Experience</p>

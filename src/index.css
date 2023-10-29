@@ -2,7 +2,6 @@ body{
   font-family:'Comfortaa' !important;
   box-sizing: border-box;
   background-color: #ca9474 !important;
-  scroll-behavior: smooth;
 }
 #root{
   display: flex;
@@ -13,4 +12,7 @@ body{
 
 *{
   outline: none;
+  scroll-behavior: smooth;
+  margin:0;
+  padding: 0;
 }
