@@ -1,10 +1,10 @@
 import './App.css'
 import { Education } from './components/education/education'
 import { Experience } from './components/experience/experience'
+import Map from './components/map/map'
 import { Nav } from './components/nav/nav'
 import { Portfolio_Info } from './components/portfolio-info/portfolio'
 import { Skills } from './components/skills/skills'
-import { Social } from './components/social/social'
 
 const App = () => {
 
@@ -16,7 +16,7 @@ const App = () => {
       <Skills />
       <Experience />
       <Education />
-      <Social />
+      <Map />
     </>
   )
 }
