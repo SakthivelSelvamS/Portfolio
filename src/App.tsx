@@ -8,7 +8,7 @@ function App() {
           <div className="profile-wrapper">
             <div className="profile-content">
               <div className="profile-image">
-                <div className="profile-circle">SS</div>
+                <div className="profile-circle"></div>
               </div>
               
               <div className="profile-info">
