@@ -1,6 +1,4 @@
 
-import React from 'react'
-
 const Projects = () => {
   const projects = [
     {
@@ -136,13 +134,19 @@ const Projects = () => {
                     <span className="metric-label">Accessibility</span>
                   </div>
                   <div className="metric">
-                    <div className="metric-circle" style={{'--percentage': `${project.metrics.seo}%` as any}}>
+                    <div 
+                      className="metric-circle" 
+                      style={{ ['--percentage' as any]: `${project.metrics.seo}%` }}
+                    >
                       <span className="metric-value">{project.metrics.seo}</span>
                     </div>
                     <span className="metric-label">SEO</span>
                   </div>
                   <div className="metric">
-                    <div className="metric-circle" style={{'--percentage': `${project.metrics.practices}%` as any}}>
+                    <div 
+                      className="metric-circle" 
+                      style={{ ['--percentage' as any]: `${project.metrics.practices}%` }}
+                    >
                       <span className="metric-value">{project.metrics.practices}</span>
                     </div>
                     <span className="metric-label">Best Practices</span>
