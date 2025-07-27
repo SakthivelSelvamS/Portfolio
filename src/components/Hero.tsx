@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Hero = () => {
   return (
     <section id="hero" className="hero">
@@ -22,13 +20,13 @@ const Hero = () => {
           <div className="hero-links">
             <a href="#projects" className="hero-link" onClick={(e) => {
               e.preventDefault();
-              document.querySelector('#projects').scrollIntoView({ behavior: 'smooth' });
+              document.querySelector('#projects')?.scrollIntoView({ behavior: 'smooth' });
             }}>
               View My Work
             </a>
             <a href="#contact" className="hero-link hero-link-secondary" onClick={(e) => {
               e.preventDefault();
-              document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' });
+              document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' });
             }}>
               Get in Touch
             </a>

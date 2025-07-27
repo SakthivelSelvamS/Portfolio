@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -22,7 +22,7 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-  const scrollToSection = (href) => {
+  const scrollToSection = (href: string) => {
     const element = document.querySelector(href)
     if (element) {
       element.scrollIntoView({

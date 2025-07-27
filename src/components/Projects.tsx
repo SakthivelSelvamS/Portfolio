@@ -1,3 +1,4 @@
+
 import React from 'react'
 
 const Projects = () => {
@@ -117,25 +118,31 @@ const Projects = () => {
                 <h4>Performance Metrics</h4>
                 <div className="metrics-grid">
                   <div className="metric">
-                    <div className="metric-circle" style={{'--percentage': `${project.metrics.performance}%`}}>
+                    <div 
+                      className="metric-circle" 
+                      style={{ ['--percentage' as any]: `${project.metrics.performance}%` }}
+                    >
                       <span className="metric-value">{project.metrics.performance}</span>
                     </div>
                     <span className="metric-label">Performance</span>
                   </div>
                   <div className="metric">
-                    <div className="metric-circle" style={{'--percentage': `${project.metrics.accessibility}%`}}>
+                    <div 
+                      className="metric-circle" 
+                      style={{ ['--percentage' as any]: `${project.metrics.accessibility}%` }}
+                    >
                       <span className="metric-value">{project.metrics.accessibility}</span>
                     </div>
                     <span className="metric-label">Accessibility</span>
                   </div>
                   <div className="metric">
-                    <div className="metric-circle" style={{'--percentage': `${project.metrics.seo}%`}}>
+                    <div className="metric-circle" style={{'--percentage': `${project.metrics.seo}%` as any}}>
                       <span className="metric-value">{project.metrics.seo}</span>
                     </div>
                     <span className="metric-label">SEO</span>
                   </div>
                   <div className="metric">
-                    <div className="metric-circle" style={{'--percentage': `${project.metrics.practices}%`}}>
+                    <div className="metric-circle" style={{'--percentage': `${project.metrics.practices}%` as any}}>
                       <span className="metric-value">{project.metrics.practices}</span>
                     </div>
                     <span className="metric-label">Best Practices</span>
