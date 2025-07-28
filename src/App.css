@@ -74,7 +74,7 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-image:url('./public/s-logo.svg');
+  background-image:url('../public/s-logo.svg');
   display: flex;
   align-items: center;
   justify-content: center;
@@ -92,7 +92,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  gap: .8rem;
   width: 100%;
 }
 
@@ -114,8 +114,8 @@ body {
 
 .divider {
   height: 1px;
-  width: 3rem;
-  background: linear-gradient(90deg, transparent, #4a4a4a, transparent);
+  width: 4rem;
+  background: #9ca3a2;
   margin: 0.5rem 0;
 }
 
@@ -178,7 +178,8 @@ body {
   flex-direction: column;
   background: #111827;
   overflow-y: auto;
-  padding: 0 1rem;
+  padding: 2rem 1rem 0 1rem;
+  justify-content: flex-start;
 }
 
 /* Custom Scrollbar */
@@ -202,7 +203,7 @@ body {
 
 /* Skills Section */
 .skills-section {
-  padding: 2rem 1.5rem;
+  padding: 0 1.5rem 2rem 1.5rem;
   border-bottom: 1px solid #1f2937;
 }
 
@@ -225,7 +226,7 @@ body {
 .section-divider {
   height: 1px;
   width: 100%;
-  background: linear-gradient(90deg, #1f2937, transparent);
+  background:#1f2937;
 }
 
 .skills-grid {
@@ -301,11 +302,10 @@ body {
 
 .timeline-dot {
   position: absolute;
-  left: -6px;
+  left: -5.9px;
   top: 8px;
   width: 10px;
-  height: 10px;
-  border-radius: 50%;
+  height: 3px;
   background: #4b5563;
 }
 
