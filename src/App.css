@@ -172,6 +172,66 @@ body {
   height: 1.1rem;
 }
 
+.resume-link {
+  position: relative;
+}
+
+.resume-link:hover::after {
+  content: "Download Resume";
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #1f2937;
+  color: #ffffff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  white-space: nowrap;
+  z-index: 10;
+  border: 1px solid #3a3a3a;
+}
+
+.github-link {
+  position: relative;
+}
+
+.github-link:hover::after {
+  content: "GitHub Profile";
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #1f2937;
+  color: #ffffff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  white-space: nowrap;
+  z-index: 10;
+  border: 1px solid #3a3a3a;
+}
+
+.linkedin-link {
+  position: relative;
+}
+
+.linkedin-link:hover::after {
+  content: "LinkedIn Profile";
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #1f2937;
+  color: #ffffff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  white-space: nowrap;
+  z-index: 10;
+  border: 1px solid #3a3a3a;
+}
+
 /* Right Side Content */
 .right-side {
   display: flex;
